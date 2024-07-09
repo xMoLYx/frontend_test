@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Przykładowa Strona</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <a href="/" class="logo-link"><img src="https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png" alt="HTML5 Logo" class="logo"></a>
+
+        <span class="name">Zadanie Rekrutacyjne</span>
+    </div>
+    <div class="title">
+        <h2>Title</h2>
+    </div>
+    <div class="content">
+        <div class="first">
+            <form id="optionsForm">
+                <input type="radio" id="option1" name="option" value="1">
+                <label for="option1">Opcja 1</label><br>
+                <input type="radio" id="option2" name="option" value="2">
+                <label for="option2">Opcja 2</label><br>
+                <input type="radio" id="option3" name="option" value="3">
+                <label for="option3">Opcja losowa</label><br>
+            </form>
+        </div>
+        <div class="second">
+            <button onclick="updateContent()">Aktualizuj</button>
+        </div>
+        <div class="third" id="third">
+            <p>Treść początkowa</p>
+        </div>
+    </div>
+    <div class="footer">
+        <button onclick="toggleFrame()">Pokaż</button>
+        <div class="footer-frame" id="footerFrame">
+            <button onclick="resetPage()">Przywróć</button>
+            <button onclick="appendName()">Dodaj imię i nazwisko</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+{
+    "contentOptions": [
+      { "id": 1, "text": "Treść pierwsza" },
+      { "id": 2, "text": "Treść druga" },
+      { "id": 3, "text": "Treść trzecia" },
+      { "id": 4, "text": "Treść czwarta" },
+      { "id": 5, "text": "Treść piąta" },
+      { "id": 6, "text": "Treść szósta" }
+    ]
+  }
+  

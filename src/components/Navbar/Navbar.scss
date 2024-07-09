@@ -1,0 +1,18 @@
+.App-header {
+    height: 10vh;
+    background-color: #625;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem 0 1rem;
+
+    div {
+        display: flex;
+        flex-direction: column;
+        
+        span:last-child {
+            display: none;
+        }
+    }
+}
+
